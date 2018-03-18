@@ -33,3 +33,22 @@ class LinearSearchExample
         System.out.println(target + " doesn't exist in array.");
    }
 }
+
+
+  /*Time Complexity of This Program.
+
+     Approach 1
+
+    Best Case = Number Of Iteration=1
+    Worst Case = Number Of Iteration=n+1
+    Avg Case = Number of Iteration=(n+2)/2
+     
+        Time Complexity = O(n).
+        
+      Approach 2
+      
+      Recursion RElation.
+      
+      T(n) = T(n-1)+1
+      T(1)=1
+      Time Complexity =O(n).*/
